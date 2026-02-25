@@ -7,5 +7,5 @@ const newOrder = order.every((o) => o>500);
 console.log(`tất cả trên 500 : ${newOrder}`);
 
 const netProfits = revenues.map((net) => net*0.9);
-console.log(`lợi nhuận ròng : ${netProfits}`);
+console.log(`lợi nhuận ròng : [${netProfits}]`);
 
